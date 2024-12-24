@@ -1,0 +1,66 @@
+﻿@page "/"
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card bg-light text-dark">
+                <img src="https://avatars.mds.yandex.net/i?id=c8b95561e4210cc79fcb1afbf5c26f7ef2c813cd-5626878-images-thumbs&n=13" class="card-img-top" alt="Пользователи" />
+                <div class="card-body text-center">
+                    <NavLink class="nav-link" href="Users">
+                        <h5 class="card-title">Пользователи</h5>
+                    </NavLink>
+                    <p class="card-text">Изучите всех пользователей</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card bg-light text-dark">
+
+                <img src="https://avatars.mds.yandex.net/i?id=67ffd7a32a17652e40319f8ca2f4d543_l-5210078-images-thumbs&n=13" class="card-img-top" alt="Фильмы" />
+                <div class="card-body text-center">
+                    <NavLink class="nav-link" href="Movies">
+                        <h5 class="card-title">Фильмы</h5>
+                    </NavLink>
+                    <p class="card-text">Посмотрите фильмы.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card bg-light text-dark">
+                <img src="https://releika.ru/wp-content/uploads/6/e/a/6eabb49a31f67970123f37c7a96618fa.jpeg" class="card-img-top" alt="Рейтинг" />
+                <div class="card-body text-center">
+                    <NavLink class="nav-link" href="Reviews">
+                        <h5 class="card-title">Рейтинг</h5>
+                    </NavLink>
+                    <p class="card-text">Посмотрите рейтинги фильмов.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card bg-light text-dark">
+                <img src="https://cdn1.iconfinder.com/data/icons/rounded-black-basic-ui/139/Profile_AddFriend-RoundedBlack-1024.png" class="card-img-top" alt="Добавить" />
+                <div class="card-body text-center">
+                    <NavLink class="nav-link" href="Adduser">
+                        <h5 class="card-title">Добавить</h5>
+                    </NavLink>
+                    <p class="card-text">Добавить нового пользователя.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+    .card {
+        background-color: #d3d3d3;
+    }
+
+    .card-title, .card-text {
+        color: #333;
+    }
+</style>
